@@ -34,4 +34,4 @@ rG@1a3+B9
 ## 🛠 Requisitos
 
 - Python 3
-- No se requieren librerías externas.
+- Uso de la biblioteca random.
