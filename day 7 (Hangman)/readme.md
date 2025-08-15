@@ -25,6 +25,33 @@ For each wrong guess, a part of the hangman drawing appears until the player run
 └── README.md # Project documentation
 
 
+### File-by-file
+
+- **hangman.py**  
+  Runs the game: prints logo, picks a random word, handles guesses, lives, and shows `stages`.
+
+- **hangman_words.py**  
+  Exposes a list named `word_list` used by `hangman.py`.
+
+- **hangman_art.py**  
+  Exposes:
+  - `logo`: string printed at game start
+  - `stages`: list of 7 ASCII frames (index 6 → 0) matching lives
+
+---
+
+## 📄 Minimal File Stubs
+
+> Paste these into their respective files to get a working baseline.
+
+### `hangman_words.py`
+```python
+# List of lowercase words for the game
+word_list = [
+    "python", "variable", "function", "loop", "module",
+    "object", "class", "string", "integer", "boolean"
+]
+
 ---
 
 ## ⚙ Requirements
