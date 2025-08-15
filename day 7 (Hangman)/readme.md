@@ -91,7 +91,7 @@ word_list = [
 
 
 🖼 Example Gameplay
-
+``` text
 **************************** 6/6 LIVES LEFT ****************************
 Word to guess: _ _ _ _ _
 Guess a letter: a
@@ -103,7 +103,7 @@ Letter 'a' is not in the word. You lose a life.
      |
      |
 =========
-
+```
 📌 Notes
 
     You can uncomment the print(chosen_word) line for debugging.
