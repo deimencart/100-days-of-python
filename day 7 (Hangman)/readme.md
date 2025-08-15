@@ -17,14 +17,14 @@ For each wrong guess, a part of the hangman drawing appears until the player run
 ---
 
 ## 🗂 Project Structure
-'''text
+```text
 📂 hangman_project/
 ├── hangman.py # Main game file
 ├── hangman_words.py # Contains the list of possible words
 ├── hangman_art.py # Contains hangman ASCII art stages & logo
 └── README.md # Project documentation
 
-
+```
 
 ### File-by-file
 
@@ -52,7 +52,7 @@ word_list = [
     "python", "variable", "function", "loop", "module",
     "object", "class", "string", "integer", "boolean"
 ]
-
+```
 ## ⚙ Requirements
 - Python **3.x**
 - No external libraries required
