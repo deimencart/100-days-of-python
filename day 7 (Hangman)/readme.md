@@ -17,7 +17,7 @@ For each wrong guess, a part of the hangman drawing appears until the player run
 ---
 
 ## 🗂 Project Structure
-
+'''text
 📂 hangman_project/
 ├── hangman.py # Main game file
 ├── hangman_words.py # Contains the list of possible words
