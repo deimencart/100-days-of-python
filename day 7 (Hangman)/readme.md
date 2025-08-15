@@ -23,7 +23,7 @@ For each wrong guess, a part of the hangman drawing appears until the player run
 ├── hangman_words.py # Contains the list of possible words
 ├── hangman_art.py # Contains hangman ASCII art stages & logo
 └── README.md # Project documentation
-
+##
 
 ### File-by-file
 
