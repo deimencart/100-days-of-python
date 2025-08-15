@@ -23,7 +23,8 @@ For each wrong guess, a part of the hangman drawing appears until the player run
 ├── hangman_words.py # Contains the list of possible words
 ├── hangman_art.py # Contains hangman ASCII art stages & logo
 └── README.md # Project documentation
-##
+
+
 
 ### File-by-file
 
@@ -52,13 +53,10 @@ word_list = [
     "object", "class", "string", "integer", "boolean"
 ]
 
----
-
 ## ⚙ Requirements
 - Python **3.x**
 - No external libraries required
 
----
 
 ## 🖥 How to Run
 1. **Clone** or download the repository.
@@ -67,45 +65,30 @@ word_list = [
    ```bash
    python hangman.py
 
-📜 How It Works
+## 📜 How It Works
+1. **Import Dependencies**
+   - `random` for selecting a random word
+   - `word_list` from `hangman_words.py`
+   - `stages` & `logo` from `hangman_art.py`
 
-    Import Dependencies
+2. **Game Initialization**
+   - Display the game logo
+   - Select a random word from the word list
+   - Create a placeholder with underscores for each letter
 
-        random for selecting a random word.
+3. **Game Loop**
+   - Show lives remaining
+   - Ask the user for a letter guess
+   - If the letter was already guessed, notify the user and skip
+   - Update the display with correct guesses
+   - If the guess is wrong, decrease lives and show a message
+   - Check for win/loss conditions
+   - Display the hangman ASCII stage for the current number of lives
 
-        word_list from hangman_words.py.
+4. **End Game**
+   - **Win:** All letters guessed before running out of lives
+   - **Lose:** Lives reach zero; reveal the correct word
 
-        stages & logo from hangman_art.py.
-
-    Game Initialization
-
-        Display the game logo.
-
-        Select a random word from the word list.
-
-        Create a placeholder with underscores for each letter.
-
-    Game Loop
-
-        Show lives remaining.
-
-        Ask the user for a letter guess.
-
-        If the letter was already guessed, notify the user and skip.
-
-        Update the display with correct guesses.
-
-        If the guess is wrong, decrease lives and show a message.
-
-        Check for win/loss conditions.
-
-        Display the hangman ASCII stage for the current number of lives.
-
-    End Game
-
-        Win: All letters guessed before running out of lives.
-
-        Lose: Lives reach zero; reveal the correct word.
 
 🖼 Example Gameplay
 
